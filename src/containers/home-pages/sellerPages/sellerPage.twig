@@ -1,0 +1,14 @@
+{% import "../../../shared/seller/seller.twig" as seller %}
+{% import "../../../shared/textHead/textHead.twig" as head %}
+<div class="container">
+  <div class="content-text">
+           {{head.render(sellerPage.heading)}}
+          </div>
+	<div class="row">
+		{% for item in sellerPage.content %}
+			<div class="col-lg-3">
+				{{seller.render(item)}}
+			</div>
+		{% endfor %}
+	</div>
+</div>

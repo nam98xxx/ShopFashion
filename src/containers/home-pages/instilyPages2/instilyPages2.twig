@@ -1,0 +1,12 @@
+{% import "../../../shared/slider/slider.twig" as instily %}
+{% import "../../../shared/buttonShop/buttonshop3.twig" as button %}
+<div class="container-instily">
+	<img src="{{instilyPages2.content.img}}" alt="" class="container-instilyIMG">
+		<div class="row container-instily__box ">
+      <div class="col-lg-6"></div>
+			<div class="col-lg-6 container-instily__contain">
+				   {{instily.render(instilyPages2.content)}}
+           {{button.render()}}
+			</div>
+		</div>
+</div>

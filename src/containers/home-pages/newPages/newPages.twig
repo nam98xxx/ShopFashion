@@ -1,0 +1,18 @@
+{% import "../../../shared/newShop/newShop.twig" as new %}
+{% import "../../../shared/textHead/textHead.twig" as head %}
+{% import "../../../shared/buttonLoad/buttonLoad.twig" as button3 %}
+<div class="container">
+	<div class="content-text">
+		{{head.render(newPages.heading)}}
+	</div>
+	<div class="row">
+		{% for item in newPages.content %}
+			<div class="col-lg-3">
+				{{new.render(item)}}
+			</div>
+		{% endfor %}
+		<div class="container-text__button">
+			{{button3.render()}}
+		</div>
+	</div>
+</div>

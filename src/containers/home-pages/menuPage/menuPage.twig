@@ -1,0 +1,12 @@
+{% import "../../../shared/menu/menu.twig" as menu %}
+{% import "../../../shared/search/search.twig" as search %}
+<div class="container-box">
+			<ul class="container-box__menu">
+				{% for item in menuPage.content %}
+					{{menu.render(item)}}
+				{% endfor %}
+			</ul>
+       <div class="box-search" style="padding:unset">
+        {{search.render(item)}}
+       </div>
+</div>

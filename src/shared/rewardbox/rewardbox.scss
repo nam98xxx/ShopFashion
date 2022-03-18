@@ -1,0 +1,19 @@
+.container-bg {
+  background-color: #FFE7D5;
+}
+.box {
+  margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.box__list {
+  padding: 28px;
+  i {
+    font-size: 23px;
+  }
+}
+.box__link {
+  vertical-align: bottom;
+  font-size: 17px;
+  font-weight: 700;
+}

@@ -1,0 +1,65 @@
+{
+  "heading":
+   {
+     "title":"Best Seller"
+   },
+   "content":
+   [
+    {
+      "id1":1,
+      "class1":"1",
+      "class2":"2",
+      "class3":"3",
+      "class4":"4",
+      "class5":"5",
+      "number":"+1",
+      "img":"../../../img/new1.png",
+      "text1":"Wiloke",
+      "text2":"Linen-blend Shirt",
+      "text3True":"$250",
+      "text3False":"$35.00  "
+    },
+    {
+      "id1":1,
+      "class1":"1",
+      "class2":"2",
+      "class3":"3",
+      "class4":"4",
+      "class5":"5",
+      "number":"+1",
+      "img":"../../../img/new2.png",
+      "text1":"Wiloke",
+      "text2":"Quilted Shoulder Bag",
+      "text3True":"$250",
+      "text3False":"$35.00  "
+    },
+    {
+      "id1":1,
+      "class1":"1",
+      "class2":"2",
+      "class3":"3",
+      "class4":"4",
+      "class5":"5",
+      "number":"+1",
+      "img":"../../../img/new3.png",
+      "text1":"Wiloke",
+      "text2":"Quilted Shoulder Bag",
+      "text3True":"$250",
+      "text3False":"$35.00  "
+    },
+    {
+      "id1":1,
+      "class1":"1",
+      "class2":"2",
+      "class3":"3",
+      "class4":"4",
+      "class5":"5",
+      "number":"+1",
+      "img":"../../../img/new4.png",
+      "text1":"Wiloke",
+      "text2":"Quilted Shoulder Bag",
+      "text3True":"$250",
+      "text3False":"$35.00  "
+    }
+   ]
+}

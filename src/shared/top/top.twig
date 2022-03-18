@@ -1,0 +1,10 @@
+{% macro render(opts) %}
+	<div class="top">
+		<img src="{{opts.img}}" alt="" class="top__img">
+		<div class="top__text">
+			<p class="top__description">
+				{{opts.description}}
+			</p>
+		</div>
+	</div>
+{% endmacro %}

@@ -1,0 +1,10 @@
+{% import "../../../shared/rewardbox/rewardbox.twig" as rewards %}
+<div class="container-bg">
+	<div class="container">
+		<div class="row box">
+			{% for item in reward.content %}
+				{{rewards.render(item)}}
+			{% endfor %}
+		</div>
+	</div>
+</div>

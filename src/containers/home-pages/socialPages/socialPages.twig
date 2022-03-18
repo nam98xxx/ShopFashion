@@ -1,0 +1,15 @@
+{% import "../../../shared/social/social.twig" as social %}
+{% import "../../../shared/textHead/textHead.twig" as head %}
+<div class="container-social">
+  <div class="content-text">
+		{{head.render(socialPages.heading)}}
+     <p class = "content-text__description" >{{socialPages.heading.description}}</p>
+	</div>
+  <div class="row social">
+    {% for item in socialPages.content %}
+    <div class="col-lg-3 social__box">
+      {{social.render(item)}}
+    </div>
+    {% endfor %}
+  </div>
+</div>

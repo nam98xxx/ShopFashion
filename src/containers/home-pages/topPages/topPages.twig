@@ -1,0 +1,14 @@
+{% import "../../../shared/top/top.twig" as top %}
+{% import "../../../shared/textHead/textHead.twig" as head %}
+  <div class="container">
+          <div class="content-text">
+           {{head.render(topPages.heading)}}
+          </div>
+          <div class="row">
+          {% for item in topPages.content %}
+            <div class="col-lg-3">
+                {{top.render(item)}}
+            </div>
+          {% endfor %}
+      </div>
+  </div>

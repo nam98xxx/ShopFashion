@@ -1,0 +1,16 @@
+{% import "../../../shared/slider/slider.twig" as instily %}
+{% import "../../../shared/buttonShop/buttonshop1.twig" as button1 %}
+{% import "../../../shared/buttonShop/buttonshop2.twig" as button2 %}
+<div class="container-instily">
+	<img src="{{instilyPages.content.img}}" alt="" class="container-instilyIMG">
+		<div class="row container-instily__box">
+			<div class="col-lg-6 container-instily__contain">
+				{{instily.render(instilyPages.content)}}
+		<div class="box-button">
+			{{button1.render()}}
+			<span style="margin-right:10px"></span>
+			{{button2.render()}}
+		</div>
+			</div>
+		</div>
+</div>

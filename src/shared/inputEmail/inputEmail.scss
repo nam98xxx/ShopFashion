@@ -1,0 +1,26 @@
+.box-search1 {
+  display: flex;
+  input {
+    border: 1px solid #ccc;
+    width: 260px;
+    height: 40px;
+  }
+}
+.box-search__icon1 {
+    background-color: #3540DF;
+    width: 73px;
+    height: 40px;
+    display: flex;
+    /* display: inline-block; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  p {
+    font-size: 15px;
+    padding: 7px;
+    color: #fff;
+  }
+}
+.box-header__description {
+  margin-bottom: 30px;
+}

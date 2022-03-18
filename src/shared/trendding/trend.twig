@@ -1,0 +1,10 @@
+{% macro render(opts) %}
+  <div class="box-trend__{{opts.id}}">
+  <img src="{{opts.img}}" alt="" class="box-trend__img">
+  <div class="box-trend__description{{opts.id}}">
+    <p class="box-trend__text">
+      {{opts.description}}
+    </p>
+  </div>
+  </div>
+{% endmacro %}

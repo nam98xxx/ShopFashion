@@ -1,0 +1,18 @@
+{% import "../../../shared/menuDonars/menuDonars.twig" as menu1 %}
+{% import "../../../shared/donarsIcon/donarsicon.twig" as icon %}
+<div class="container-menudonars">
+	<div class="container-menudonars__list">
+		<ul class="container-menudonars__menu">
+			{% for item in menudonars.content %}
+				{{menu1.render(item)}}
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="container-menudonars__itemI">
+		<ul class="container-menudonars__iconI">
+			{% for item in menudonars.item %}
+				{{icon.render(item)}}
+			{% endfor %}
+		</ul>
+	</div>
+</div>

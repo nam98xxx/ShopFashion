@@ -1,0 +1,47 @@
+{% extends "./abstracts/layout.twig" %}
+{# Header #}
+{% block root %}
+	<div id="root">
+		{% block header %}
+			<section class="page-section" style = "background-color:#000">
+				{% include "../src/containers/home-pages/menudonars/menudonars.twig" %}
+			</section>
+			<section class="page-section">
+				{% include "../src/containers/home-pages/menuPage/menuPage.twig" %}
+			</section>
+			<section class="page-section">
+				{% include "../src/containers/home-pages/reward/reward.twig" %}
+			</section>
+		{% endblock %}
+		{# Block Body #}
+		{% block body %}
+			<section class="page-section">
+				{% include "../src/containers/home-pages/instilyPages/instilyPages.twig" %}
+			</section>
+			<section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/topPages/topPages.twig" %}
+			</section>
+			<section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/newPages/newPages.twig" %}
+			</section>
+			<section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/instilyPages2/instilyPages2.twig" %}
+			</section>
+			<section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/sellerPages/sellerPage.twig" %}
+			</section>
+      <section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/trendPages/trendPages.twig" %}
+			</section>
+      <section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/instilyPages3/instilyPage3.twig" %}
+			</section>
+      <section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/home-pages/socialPages/socialPages.twig" %}
+			</section>
+      <section class="page-section"  style="margin-top: 80px; background-color:#000" >
+				{% include "../src/containers/home-pages/headerPage/headerPage.twig" %}
+			</section>
+		{% endblock %}
+	</div>
+{% endblock %}

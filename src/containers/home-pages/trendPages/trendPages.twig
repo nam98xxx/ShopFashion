@@ -1,0 +1,14 @@
+{% import "../../../shared/trendding/trend.twig" as trend %}
+{% import "../../../shared/textHead/textHead.twig" as head %}
+<div class="container">
+	<div class="content-text">
+		{{head.render(trendPages.heading)}}
+	</div>
+	<div class="row box-trend">
+		{% for item in trendPages.content %}
+			<div class="col-lg-4">
+				{{trend.render(item)}}
+			</div>
+		{% endfor %}
+	</div>
+</div>
