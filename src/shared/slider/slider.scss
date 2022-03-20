@@ -4,6 +4,17 @@
 .container-instilyIMG {
   width: 100%;
 }
+.container-instily__boxleft {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-end;
+  margin: unset;
+}
+
 .container-instily__box {
   top: 0;
   left: 0;
