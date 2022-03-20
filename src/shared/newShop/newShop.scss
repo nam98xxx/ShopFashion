@@ -32,12 +32,12 @@
   cursor: pointer;
   transform: translateX(101%);
   position: absolute;
-  background-color: #000;
+  background-color: $color-primary;
   p {
     text-align: center;
     padding: 16px 0;
     margin: unset;
-    color: #fff;
+    color: $color-gray1;
     font-size: 17px;
   }
 }
@@ -56,13 +56,13 @@
 }
 .box-new__heading1 {
   margin: unset;
-  color: $color-pageNew-heading;
+  color: $color-gray5;
 }
 .box-new__define2 {
   color: $color-pageNew-price;
 }
 .box-new__define3 {
-  color: $color-pageNew-noPrice;
+  color: $color-gray5;
   text-decoration: line-through;
 }
 .box-new__define3,

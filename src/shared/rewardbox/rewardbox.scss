@@ -1,18 +1,21 @@
 .container-bg {
   background-color: #FFE7D5;
 }
-.box {
-  margin: 0 15px;
-  display: flex;
-  justify-content: space-between;
+.container-rewrard {
+  padding: 0 10px;
 }
-.box__list {
+.container-rewrard__box {
+  padding-left:65px;
+}
+.container-rewrard__list {
+  display: inline-block;
   padding: 28px;
+  margin-right: 60px;
   i {
     font-size: 23px;
   }
 }
-.box__link {
+.container-rewrard__link {
   vertical-align: bottom;
   font-size: 17px;
   font-weight: 700;

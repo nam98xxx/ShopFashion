@@ -2,24 +2,25 @@
 .buttonShop1 {
   width: 197px;
   height: 60px;
-  background-color: #000;
+  background-color: $color-primary;
   display: inline-block;
 }
 .buttonShop1__men,
 .buttonShop1__women {
   text-align: center;
   margin: 18px;
-  color: #fff;
+  color: $color-gray1;
   font-weight: 600;
 }
 .buttonShop3__now {
   text-align: center;
   margin: 18px;
   font-weight: 600;
+  color: $color-gray1;
 }
 .buttonShop3 {
   width: 265px;
   height: 60px;
   display: inline-block;
-  background-color: #fff;
+  background-color: $color-primary;
 }

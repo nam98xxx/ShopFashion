@@ -29,7 +29,7 @@
   font-size: 50px;
 }
 .container-instily__content1 {
-  font-size: 14px;
+  font-family: $font-tertiary;
 }
 .container-instily__box3 {
   text-align: center;
@@ -40,7 +40,17 @@
   }
 }
 .container-instily__contain3 {
+  color: $color-gray1;
   text-align: center;
+  .container-instily__title1 {
+    color: $color-gray1;
+  }
+  .buttonShop3 {
+    background-color: $color-gray1;
+    p {
+      color: $color-primary;
+    }
+  }
 }
 .container-instily__content {
   margin-bottom: 35px;

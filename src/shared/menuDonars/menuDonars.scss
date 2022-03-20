@@ -1,3 +1,4 @@
+@import url(../../abstracts//variable.scss);
 .page-section {
   overflow: hidden;
 }
@@ -12,11 +13,22 @@
   padding: unset;
 }
 .container-menudonars {
-  background-color: #000;
+  background-color: $color-primary;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding:  0 12px;
+}
+.container-menudonars__item:nth-child(2) {
+  a {
+    text-transform: uppercase;
+    font-family: $font-secondary;
+  }
+}
+.container-menudonars__item:nth-child(5) {
+  a {
+    text-transform: uppercase;
+  }
 }
 .container-menudonars__item {
   display: inline-block;
@@ -24,14 +36,14 @@
 .container-menudonars__link {
   padding: 18px;
   display: inline-block;
-  color: #fff;
+  color: $color-light;
   font-size: 17px;
   font-weight: 600;
 }
 .container-menudonars__item::after {
   content: "";
   position: absolute;
-  border-left: 1px solid #fff;
+  border-left: 1px solid $color-light;
   height: 38px;
   transform: translateY(13px);
 }
