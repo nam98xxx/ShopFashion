@@ -3,9 +3,21 @@
 }
 .container-rewrard {
   padding: 0 10px;
+  @media(max-width:740px) {
+    padding: 20px 10px;
+  }
 }
 .container-rewrard__box {
   padding-left:65px;
+  @media(max-width:740px) {
+    display: flex;
+    padding: 0;
+    overflow-x: auto;
+  }
+  @media (min-width:740px) {
+    display: flex;
+    padding: 0;
+  }
 }
 .container-rewrard__list {
   display: inline-block;
@@ -14,9 +26,19 @@
   i {
     font-size: 23px;
   }
+  @media (max-width:740px) {
+    padding: 0;
+    margin-right: 33px;
+  }
+  @media (min-width:740px) {
+    margin-right: 0;
+  }
 }
 .container-rewrard__link {
   vertical-align: bottom;
   font-size: 17px;
   font-weight: 700;
+  @media (max-width:740px) {
+    display: inline;
+  }
 }

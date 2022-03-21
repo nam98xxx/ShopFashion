@@ -4,6 +4,9 @@
   height: 60px;
   background-color: $color-primary;
   display: inline-block;
+  @media(max-width:740px) {
+    width: 155px;
+  }
 }
 .buttonShop1__men,
 .buttonShop1__women {
