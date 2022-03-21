@@ -8,15 +8,15 @@
   }
 }
 .container-rewrard__box {
-  padding-left:65px;
+  display: flex;
+  padding: 0;
   @media(max-width:740px) {
     display: flex;
     padding: 0;
     overflow-x: auto;
   }
-  @media (min-width:740px) {
-    display: flex;
-    padding: 0;
+  @media (min-width:1100px) {
+    padding-left:65px;
   }
 }
 .container-rewrard__list {
