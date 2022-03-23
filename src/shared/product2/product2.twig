@@ -1,0 +1,45 @@
+{% import "../../../src/shared/cirkle/cirkle.twig" as cirkle %}
+{% import "../../../src/shared/buttonAdd/buttonAdd.twig" as add %}
+{% import "../../../src/shared/start/start.twig" as start %}
+{% import "../../../src/shared/iconNew/iconNew.twig" as iconNew %}
+{% import "../../../src/shared/removebox/remove.twig" as remove %}
+{% macro render(opts) %}
+<div class="container">
+  {{remove.render()}}
+	<div class="row product2-new">
+		<div class="col-lg-3">
+			<div class="product2-new__img">
+				<img src="{{opts.img}}" alt="">
+        {{iconNew.render()}}
+			</div>
+		</div>
+		<div class="col-lg-9">
+			<div class="product2__box">
+				<div class="product2__heading">
+					<p class="product2__headingText">
+						{{opts.heading}}
+					</p>
+				</div>
+				<div class="product2__des">
+					<p class="product2__desText">
+						{{opts.description}}
+					</p>
+				</div>
+        {{start.render()}}
+				<div class="product2__price">
+					<p class="product2__priceText">
+						{{opts.price}}
+					</p>
+				</div>
+        {{cirkle.render()}}
+				<div class="product2__content">
+					<p class="product2__text">
+						{{opts.text}}
+					</p>
+				</div>
+        {{add.render()}}
+			</div>
+		</div>
+	</div>
+</div>
+{% endmacro %}

@@ -1,22 +1,29 @@
+:root {
+  --color-primary: #000;
+  --color-light: #ffffff;
+  --color-gray1: #F8F8FC;
+  --color-gray2: #f2f2f7;
+  --color-gray3: #DEDEE9;
+  --color-gray4: #D2D2E2;
+  --color-gray5: #929292;
+  --color-gray6: #6D6D9C;
+  --color-gray7: #494880;
+  --color-gray8: #26256C;
+  --color-gray9: #17174F;
+  --color-dark: #0f0f36;
+  --font-primary: "Jost", sans-serif;
+  --font-secondary: "Roboto Condensed", sans-serif;
+  --font-tertiary: "Roboto", sans-serif;
+  --font-quaternary:'Poppins';
 
-$color-primary: #000;
-$color-light: #ffffff;
-$color-gray1: #F8F8FC;
-$color-gray2: #f2f2f7;
-$color-gray3: #DEDEE9;
-$color-gray4: #D2D2E2;
-$color-gray5: #929292;
-$color-gray6: #6D6D9C;
-$color-gray7: #494880;
-$color-gray8: #26256C;
-$color-gray9: #17174F;
-$color-dark: #0f0f36;
+  --color-cirkle1:#FFD860;
+  --color-cirkle2: #C3DEE4;
+  --color-cirkle3: #8667DE;
+
+  --color-item1: #EB5757;
+}
 
 
-$font-primary: "Jost", sans-serif;
-$font-secondary: "Roboto Condensed", sans-serif;
-$font-tertiary: "Roboto", sans-serif;
-$font-quaternary:'Bangers';
 
 // // trung lập
 $color-pageNew-signText: #fff;

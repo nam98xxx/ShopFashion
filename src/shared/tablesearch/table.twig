@@ -1,0 +1,44 @@
+{% macro render(opts) %}
+	<div class="table">
+		<div class="table__box">
+			<h6 class="table__heading">Search</h6>
+			<input type="text" class="table__input" placeholder="Tìm Kiếm">
+		</div>
+		<div class="table__box">
+			<h6 class="table__heading">{{opts.text1.heading}}</h6>
+			{% for item in opts.text1.item %}
+				<div class="table__contain">
+					<div class="table__img">
+						<img src="{{item.img}}" alt="">
+					</div>
+					<div class="table__desctiption">
+						<div class="table__content">{{item.text}}</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="table__bg">
+			<img src="{{opts.text2.img}}" alt="">
+		</div>
+		<div class="table__box">
+			<h6 class="table__heading">{{opts.text2.heading}}</h6>
+				{% for item in opts.text2.item %}
+					<div class="table__text">
+						<div class="table__letter" > {{item.text}} </div>
+					</div>
+				{% endfor %}
+		</div>
+		<div class="table__box">
+			<h6 class="table__heading">{{opts.text3.heading}}</h6>
+			<div class="table__quote">
+				{{opts.text3.text}}
+			</div>
+		</div>
+		<div class="table__box table__sub">
+			<input type="text" class="table__input" placeholder="Your Email">
+			<div class="table__get">
+        <div class="table__select">GET</div>
+      </div>
+		</div>
+	</div>
+{% endmacro %}

@@ -1,0 +1,26 @@
+.home-filter {
+  display: flex;
+  justify-content: space-between;
+}
+.home-filter__size {
+  display: flex;
+  align-items: center;
+}
+.home-filter__input {
+  padding: 12px 26px 12px 12px;
+  border: 1px solid var(--color-gray3);
+}
+.home-filter__search {
+  margin-left: 10px ;
+}
+.home-filter__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-filter__text {
+  margin-right: 10px;
+}
+.home-filter__icon {
+  font-size: 20px;
+}

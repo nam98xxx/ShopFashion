@@ -1,0 +1,24 @@
+{% extends "./abstracts/layout.twig" %}
+{% block root %}
+  <div id="root">
+    {% block header %}
+      <section class="page-section">
+				{% include "../src/containers/home-pages/menudonars/menudonars.twig" %}
+			</section>
+      <section class="page-section" style = "box-shadow: 0px 8px 20px 7px rgb(0 0 0 / 5%);">
+				{% include "../src/containers/home-pages/menuPage/menuPage.twig" %}
+			</section>
+    {% endblock %}
+    {% block body %}
+      <section class="page-section">
+				{% include "../src/containers/blog-page/blockpage.twig" %}
+			</section>
+      <section class="page-section" style="background-color:#F2F2F7">
+				{% include "../src/containers/shop-page2/signup/signup.twig" %}
+			</section>
+      <section class="page-section" style="background-color:#000" >
+				{% include "../src/containers/home-pages/headerPage/headerPage.twig" %}
+			</section>
+    {% endblock %}
+  </div>
+{% endblock %}

@@ -23,13 +23,13 @@
       "icon":"fas fa-user-alt"
     },
     {
-      "icon":"fas fa-user-alt"
+      "icon":"fas fa-retweet"
     },
     {
-      "icon":"fas fa-user-alt"
+      "icon":"fas fa-heart"
     },
     {
-      "icon":"fas fa-user-alt"
+      "icon":"fas fa-archive"
     }
   ]
 }

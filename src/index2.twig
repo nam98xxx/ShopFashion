@@ -1,0 +1,24 @@
+{% extends "./abstracts/layout.twig" %}
+{% block root %}
+  <div id="root">
+    {% block header %}
+      <section class="page-section">
+				{% include "../src/containers/home-pages/menudonars/menudonars.twig" %}
+			</section>
+      <section class="page-section">
+				{% include "../src/containers/home-pages/menuPage/menuPage.twig" %}
+			</section>
+    {% endblock %}
+    {% block body %}
+      <section class="page-section">
+				{% include "../src/containers/shop-page1/instily-pages2/instily-page.twig" %}
+			</section>
+      <section class="page-section">
+        {% include "../src/containers/shop-page1/product1/product1.twig" %}
+      </section>
+       <section class="page-section"  style="margin-top: 160px; background-color:#000" >
+				{% include "../src/containers/home-pages/headerPage/headerPage.twig" %}
+			</section>
+    {% endblock %}
+  </div>
+{% endblock %}

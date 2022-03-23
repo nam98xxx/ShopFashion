@@ -1,0 +1,18 @@
+.cirkle {
+  display: flex;
+}
+.cirkle__color {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.cirkle__color1 {
+  background-color: var(--color-cirkle1);
+}
+.cirkle__color2 {
+  background-color: var(--color-cirkle2);
+}
+.cirkle__color3 {
+  background-color: var(--color-cirkle3);
+}

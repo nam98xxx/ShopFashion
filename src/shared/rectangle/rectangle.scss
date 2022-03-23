@@ -1,0 +1,47 @@
+.rectabgle__heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.rectabgle__input {
+  width: 100%;
+  padding: 12px;
+}
+.rectabgle {
+  padding: 10px;
+  border: 1px solid var(--color-gray3);
+}
+.rectabgle__list {
+  padding-left: 20px;
+}
+.rectabgle__link::marker,
+.rectabgle__item::marker {
+  color: var(--color-gray5);
+}
+.rectabgle__colorI {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-block;
+}section
+.rectabgle__sizeBox {
+  display: inline-block;
+
+  width: 40px;
+  height: 40px;
+  border: 1px solid var( --color-gray4);
+}
+.rectabgle__sizeText {
+  text-align: center;
+    padding: 7px 0;
+}
+.rectabgle__tagsBox {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.rectabgle__tagsText {
+  padding: 3px 12px;
+  border: 1px solid var(--color-gray3);
+}
+.box-header__headingText {
+  color: #fff;
+}

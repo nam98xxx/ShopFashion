@@ -1,0 +1,19 @@
+{% macro render(opts) %}
+	<div class="home-filter">
+		<div class="home-filter__label">
+			<div class="home-filter__text">View as:</div>
+      <a href="./index2.html" class="home-filter__text">
+        <i class="home-filter__icon fas fa-table"></i>
+      </a>
+      <a href="./index3.html" class="home-filter__text">
+        <i class="home-filter__icon fas fa-border-all"></i>
+      </a>
+		</div>
+    <div class="home-filter__size">
+      <p class="home-filter__text">Short by</p>
+      <div class = "home-filter__search">
+        <input type="text" class = "home-filter__input" placeholder = "Abcxyz">
+      </div>
+    </div>
+	</div>
+{% endmacro %}

@@ -1,0 +1,12 @@
+.button-read {
+  width: 236px;
+  height: 52px;
+  background-color: var(--color-dark);
+}
+.button-read__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--color-light);
+}

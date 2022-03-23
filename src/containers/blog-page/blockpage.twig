@@ -1,0 +1,26 @@
+{% import "../../shared/tablesearch/table.twig" as table %}
+{% import "../../shared/newspaper/newspaper.twig" as news %}
+{% import "../../shared/numberPages/number.twig" as number %}
+<div class="container">
+	<div class="adress">
+		<div class="adress__text">
+			Home >
+		</div>
+		<div class="adress__text2">
+			Block
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8" style = "padding-right:64px">
+      {% for item in blockpage.news.item %}
+        {{news.render(item)}}
+      {% endfor %}
+    </div>
+		<div class="col-lg-4">
+			{{table.render(blockpage)}}
+		</div>
+	</div>
+  <div class="blocg-number">
+  {{number.render()}}
+  </div>
+</div>

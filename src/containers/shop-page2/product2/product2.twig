@@ -1,0 +1,26 @@
+{% import "../../../shared/rectangle/rectabgle.twig" as rectabgle %}
+{% import "../../../shared/product2/product2.twig" as products2 %}
+{% import "../../../shared/homeFilter/filter.twig" as filters %}
+<div class="container">
+	<div class="adress">
+		<div class="adress__text">
+			Home >
+		</div>
+		<div class="adress__text2">
+			Product
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			{{filters.render()}}
+		</div>
+		<div class="col-lg-4">
+			{{rectabgle.render(product1)}}
+		</div>
+		<div class="col-lg-8">
+			{% for item in product2.content %}
+				{{products2.render(item)}}
+			{% endfor %}
+		</div>
+	</div>
+</div>

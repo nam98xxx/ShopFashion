@@ -1,0 +1,22 @@
+.product2__content,
+.product2__price,
+.product2__des,
+.product2__text,
+.product2__heading {
+  padding: 10px 0;
+}
+.product2-new__img {
+  position: relative;
+}
+.adress {
+  margin-top: 20px;
+  .adress__text {
+    display: inline-block;
+    color: var(--color-gray3);
+  }
+  .adress__text2 {
+    display: inline-block;
+    color: var(--color-dark);
+  }
+}
+// test

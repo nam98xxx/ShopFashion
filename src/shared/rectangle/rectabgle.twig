@@ -1,0 +1,57 @@
+{% macro render(opts) %}
+	<div class="rectabgle">
+		<div class="rectabgle__search" style="margin-bottom:25px;">
+			<h6 class="rectabgle__heading">Search</h6>
+			<input type="text" class="rectabgle__input" placeholder="Tìm Kiếm">
+		</div>
+		<div class="rectabgle__ref" style="margin-bottom:25px;">
+			<div class="rectabgle__box1">
+				<h6 class="rectabgle__heading">{{opts.content1.heading}}</h6>
+				<div class="rectabgle__headingsub">{{opts.content1.headingsub}}</div>
+			</div>
+			<div class="rectabgle__box2" style="margin-bottom:25px;">
+				{% for item in opts.content1.item %}
+					<div class="rectabgle__text">{{item.item1}}</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="rectabgle__catergor" style="margin-bottom:25px;">
+			<h6 class="rectabgle__heading">{{opts.content2.heading}}</h6>
+			<ul class="rectabgle__list">
+			{% for item in opts.content2.item %}
+				<li class="rectabgle__item">{{item.item1}}</li>
+			{% endfor %}
+			</ul>
+		</div>
+    <div class="rectabgle__color" style="margin-bottom:25px;">
+      <h6 class="rectabgle__heading">{{opts.content3.heading}}</h6>
+      {% for item in opts.content3.item %}
+				<div class="rectabgle__colorI rectabgle__item{{item.id}}" style="background-color:{{item.style}};"></div>
+			{% endfor %}
+    </div>
+    <div class="rectabgle__size" style="margin-bottom:25px;">
+      <h6 class="rectabgle__heading">{{opts.content4.heading}}</h6>
+      {% for item in opts.content4.item %}
+				<div class="rectabgle__sizeBox">
+          <p class ="rectabgle__sizeText" >{{item.item1}}</p>
+        </div>
+			{% endfor %}
+    </div>
+    <div class="rectabgle__brand" style="margin-bottom:25px;">
+      <h6 class="rectabgle__heading">{{opts.content5.heading}}</h6>
+      <ul class="rectabgle__list">
+      {% for item in opts.content5.item %}
+          <li class ="rectabgle__link" >{{item.item1}}</li>
+			{% endfor %}
+      </ul>
+    </div>
+    <div class="rectabgle__tags">
+    <h6 class="rectabgle__heading">{{opts.content6.heading}}</h6>
+    {% for item in opts.content6.item %}
+				<div class="rectabgle__tagsBox">
+          <p class ="rectabgle__tagsText" >{{item.item1}}</p>
+        </div>
+			{% endfor %}
+    </div>
+	</div>
+{% endmacro %}

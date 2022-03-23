@@ -1,0 +1,28 @@
+{% import "../../../shared/rectangle/rectabgle.twig" as rectabgle %}
+{% import "../../../shared/newShop/newShop.twig" as new %}
+{% import "../../../shared/homeFilter/filter.twig" as filters %}
+{% import "../../../shared/numberPages/number.twig" as number %}
+<div class="container">
+  <div class="adress">
+    <div class="adress__text">
+      Home >
+    </div>
+    <div class="adress__text2"> Product </div>
+  </div>
+	<div class="row">
+		<div class="col-lg-8" style="padding-right:64px;">
+      {{filters.render()}}
+			<div class="row">
+				{% for item in newPages.content %}
+					<div class="col-lg-4">
+						{{new.render(item)}}
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="col-lg-4">
+			{{rectabgle.render(product1)}}
+		</div>
+	</div>
+    {{number.render()}}
+</div>

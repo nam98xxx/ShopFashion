@@ -1,0 +1,11 @@
+.button-add {
+  background-color: var(--color-dark);
+  width: 244px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-add__text {
+  color: var(--color-light);
+}

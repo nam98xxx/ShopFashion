@@ -1,0 +1,27 @@
+{% import "../../shared/buttonRead/buttonread.twig" as button %}
+{% macro render(opts) %}
+<div class="block" style = "margin-bottom:60px">
+  <div class="block__image">
+    <img src="{{opts.img}}" alt="" class="block__img">
+  </div>
+  <div class="block__sub">
+    <div class="block__des">
+      <div class="block__timeI">{{opts.icon1}}</div>
+      <div class="block__timeT">{{opts.time}}</div>
+    </div>
+    <div class="block__des">
+      <div class="block__tipI">{{opts.icon2}}</div>
+      <div class="block__timeT">{{opts.text}}</div>
+    </div>
+    <div class="block__des">
+      <div class="block__storeI">{{opts.icon3}}</div>
+      <div class="block__storeT">{{opts.text1}}</div>
+    </div>
+  </div>
+  <div class="block__contain">
+    <h6 class="block__headingT">{{opts.heading}}</h6>
+    <div class="block__text">{{opts.content}}</div>
+  </div>
+  {{button.render()}}
+</div>
+{% endmacro %}

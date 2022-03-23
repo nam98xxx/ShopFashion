@@ -1,0 +1,18 @@
+.item-new {
+  background-color: var(--color-item1);
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  width: 63px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-new__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-light);
+  font-family: var(--font-quaternary);
+}
