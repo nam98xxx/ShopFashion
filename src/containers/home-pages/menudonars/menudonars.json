@@ -20,12 +20,14 @@
   "item":
   [
     {
+      "class":"/index6.html",
       "icon":"fas fa-user-alt"
     },
     {
       "icon":"fas fa-retweet"
     },
     {
+      "class":"/index5.html",
       "icon":"fas fa-heart"
     },
     {

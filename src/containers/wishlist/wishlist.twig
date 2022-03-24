@@ -1,0 +1,17 @@
+{% import "../../shared/wishlist/wishlist.twig" as wish %}
+{% import "../../shared/numberPages/number.twig" as number %}
+{% import "../../shared/textHead/textHead.twig" as head %}
+<div class="container">
+  <div class="content-text">
+		{{head.render(wishlist.heading)}}
+	</div>
+	<div class="row" style = "margin-bottom:70px;">
+		{% for item in wishlist.content %}
+			<div class="col-lg-3">
+				{{wish.render(item)}}
+			</div>
+		{% endfor %}
+	</div>
+  {{number.render()}}
+  </div>
+</div>

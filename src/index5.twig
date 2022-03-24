@@ -10,16 +10,13 @@
 			</section>
     {% endblock %}
     {% block body %}
-      <section class="page-section">
-				{% include "../src/containers/blog-page/blockpage.twig" %}
+    <section class="page-section" style="margin-top: 100px;">
+				{% include "../src/containers/wishlist/wishlist.twig" %}
 			</section>
-      <section class="page-section" style="margin-top: 100px;">
+      <section class="page-section" style="margin-top: 70px;">
 				{% include "../src/containers/home-pages/sellerPages/sellerPage.twig" %}
 			</section>
-      <section class="page-section" style="background-color:#F2F2F7; margin-top: 50px;">
-				{% include "../src/containers/shop-page2/signup/signup.twig" %}
-			</section>
-      <section class="page-section" style="background-color:#000" >
+      <section class="page-section" style="background-color:#000; margin-top:50px" >
 				{% include "../src/containers/home-pages/headerPage/headerPage.twig" %}
 			</section>
     {% endblock %}

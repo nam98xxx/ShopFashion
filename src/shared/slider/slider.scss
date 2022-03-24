@@ -3,9 +3,7 @@
 }
 .container-instily__img {
   width: 100%;
-  @media(max-width:740px) {
-    height: 310px;
-  }
+  min-height:350px;
 }
 .container-instily__boxleft {
   top: 0;

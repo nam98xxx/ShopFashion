@@ -1,5 +1,7 @@
 {% macro render(opts) %}
-  <li class="container-menudonars__linkI">
-    <i class="{{opts.icon}}"></i>
-  </li>
+	<li class="container-menudonars__linkI">
+		<a href="{{opts.class}}" class="">
+			<i class="{{opts.icon}}"></i>
+		</a>
+	</li>
 {% endmacro %}

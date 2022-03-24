@@ -17,8 +17,12 @@
   padding: 10px 0;
 }
 .table__input {
+  border: 1px solid var(--color-gray3);
   width: 100%;
   padding: 12px;
+}
+.content-text1 {
+  text-align: left;
 }
 .table__desctiption {
   margin-left: 9px;
@@ -36,9 +40,6 @@
 }
 .table__sub {
   display: flex;
-}
-.table__input {
-  width: 70%;
 }
 .table__get {
   display: flex;

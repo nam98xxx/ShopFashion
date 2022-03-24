@@ -1,0 +1,52 @@
+{% macro render(opts) %}
+	<div class="box-new">
+		<div class="box-new__img">
+			<img src="{{opts.img}}" alt="">
+			<div class="box-new__buy">
+				<p>Select Option</p>
+			</div>
+			<div class="box-new__icon">
+				<div class="box-new__arc">
+					<i class="far fa-heart"></i>
+				</div>
+				<div class="box-new__arc">
+					<i class="far fa-eye"></i>
+				</div>
+				<div class="box-new__arc">
+					<i class="fas fa-exchange-alt"></i>
+				</div>
+			</div>
+			{% if opts.id3 or opts.id4 %}
+				<div class="box-new__signs box-new__signs--1">
+					<p>NEW</p>
+				</div>
+			{% elseif opts.id7 or opts.id8 %}
+				<div class="box-new__signs  box-new__signs--2">
+					<p>SALE</p>
+				</div>
+			{% else %}
+    	{% endif %}
+		</div>
+		<div class="box-new__description">
+			<div class="box-new__heading">
+				<p class="box-new__heading1">{{opts.text1}}</p>
+			</div>
+			<div class="box-new__define">
+				<p class="box-new__define1">{{opts.text2}}</p>
+			</div>
+			<div class="box-new__priceTrue">
+				<p class="box-new__define2">{{opts.text3True}}</p>
+			</div>
+			<div class="box-new__priceFalse">
+				<p class="box-new__define3">{{opts.text3False}}</p>
+			</div>
+		</div>
+		<div class="box-new__color">
+			<div class=" box-new__cirkle box-new__color{{opts.class3}}">
+				<div class="box-new__color--sub"></div>
+			</div>
+			<div class=" box-new__cirkle box-new__color{{opts.class1}}"></div>
+			<div class=" box-new__cirkle box-new__color{{opts.class2}}"></div>
+		</div>
+	</div>
+{% endmacro %}

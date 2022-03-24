@@ -10,6 +10,27 @@
   text-align: center;
   padding: 40px 0px;
 }
+.box-sign__email {
+  width: 283px;
+  height: 40px;
+  border: 1px solid transparent;
+}
+.box-sign__emailB {
+  display: flex;
+}
+.box-sign__buttonT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  margin-left: 15px;
+  background-color: var(--color-primary);
+  width: 108px;
+  height: 40px;
+  .box-sign__buttontText {
+    color: var(--color-light);
+  }
+}
 .box-sign__sub {
   padding-bottom:20px ;
 }
